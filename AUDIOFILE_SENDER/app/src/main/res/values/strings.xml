@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AUDIOFILE_SENDER</string>
+    <string name="action_settings">Settings</string>
+    <string name="upload">PREDICT GENRE</string>
+    <string name="choose">CHOOSE WAV FILE</string>
+    <string name="display">MUSIC GENRE PREDICTOR</string>
+</resources>

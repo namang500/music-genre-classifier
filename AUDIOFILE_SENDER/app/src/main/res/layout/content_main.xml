@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="@drawable/img1"
+    tools:context="com.example.adityaaggarwal.audiofile_sender.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/display"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#d60fd6"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_marginTop="30dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/choose"
+        android:textColor="#caf8faf9"
+        android:background="#3a8e76"
+        android:textSize="20sp"
+        android:id="@+id/choose_button"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/upload"
+        android:textColor="#caf8faf9"
+        android:background="#3a8e76"
+        android:textSize="20sp"
+        android:id="@+id/upload_button"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        />
+
+</LinearLayout>
